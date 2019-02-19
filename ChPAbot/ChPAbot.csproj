@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="RestSharp" Version="106.6.7" />
+    <PackageReference Include="Telegram.Bot" Version="14.10.0" />
+  </ItemGroup>
+
 </Project>
